@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.card {
+    margin: 0 2% !important;
+    border-radius: 30px !important;
+    background: rgb(237, 240, 240) !important;
+    box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, .25) inset!important;
+}
+
+.infected {
+    border-width: 5px 0 5px 0;
+    border-color: #315fb5;
+    border-style: solid;
+}
+
+.recovered {
+    border-width: 5px 0 5px 0;
+    border-color: green;
+    border-style: solid;
+}
+
+.deaths {
+    border-width: 5px 0 5px 0;
+    border-color: rgb(255, 0, 0);
+    border-style: solid;
+}
+
+@media only screen and (max-width: 770px) {
+    .card {
+        margin: 2% 0 !important;
+    }
+}
